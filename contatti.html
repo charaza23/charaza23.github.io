@@ -1,21 +1,40 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="contattistyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti - Il Mio Sito Personale</title>
+    <link rel="stylesheet" href="contatti.css">
 </head>
 <body>
-    <div id="container">
-        <h1>Contact Us</h1>
-        <form action="/submit_form" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+    <header>
+        <h1>Contatti</h1>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Invia un Messaggio</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+        <section id="contact-info">
+            <h2>Informazioni di Contatto</h2>
+            <p>Per maggiori informazioni, non esitare a contattarci:</p>
+            <ul>
+                <li>Email: info@miosito.com</li>
+                <li>Telefono: +1234567890</li>
+                <li>Indirizzo: Via Nome della Strada, Numero Civico, CAP, Città, Paese</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Il Mio Sito Personale. Tutti i diritti riservati.</p>
+    </footer>
 </body>
 </html>
