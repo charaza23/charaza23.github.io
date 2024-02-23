@@ -10,6 +10,7 @@ body {
     background-color: green;
     padding: 20px;
     text-align: center;
+    font-color: white;
 }
 #nav {
     background-color: black;
@@ -32,6 +33,7 @@ body {
 }
 #footer {
     background-color: green;
+    font-color: white;
     padding: 20px;
     text-align: center;
 }
