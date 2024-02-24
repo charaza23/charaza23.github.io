@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .project {
+        padding: 1rem;
+    }
+}
