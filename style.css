@@ -15,7 +15,20 @@ header {
     padding: 20px 0;
     text-align: center;
 }
+#video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Larghezza massima del video */
+    margin: 0 auto; /* Centro il video orizzontalmente */
+}
 
+#video-container video {
+    width: 100%; /* Imposta la larghezza del video al 100% del contenitore */
+    height: auto; /* Altezza automatica per mantenere l'aspetto originale */
+    display: block; /* Assicura che il video sia visualizzato come blocco */
+    border-radius: 10px; /* Bordo arrotondato per il video */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera per il video */
+}
 nav {
     background-color: #343a40;
     text-align: center;
