@@ -7,6 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #333;
+    background-color: #f8f9fa;
 }
 
 #header {
@@ -77,4 +78,24 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+    object-fit: cover;
+}
+
+/* Stili per il pulsante */
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background-color: #555;
+    cursor: pointer;
 }
